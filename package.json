@@ -1,0 +1,19 @@
+{
+  "name": "mythoughtsblog",
+  "version": "1.0.0",
+  "description": "A website for blog posts. Will be basic HTML,CSS, Javascript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hduperier/myThoughtsBlog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hduperier/myThoughtsBlog/issues"
+  },
+  "homepage": "https://github.com/hduperier/myThoughtsBlog#readme"
+}
