@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/myThoughtsBlog/static/CSS/style.css">
     <title>My Thoughts Blog</title>
-    <link rel="stylesheet" href="/myThoughtsBlog/static/CSS/style.css">
   </head>
   <body>
     <header>
       <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <h1>My Thoughts Blog</h1>
-        <p>Welcome to my thoughts blog, where I share my thoughts and opinions on various topics. Feel free to read and leave a comment if you have something to add!</p>
-      </section>
-      <section>
-        <h2>Recent Posts</h2>
-        <ul>
-          <li><a href="#">Post 1</a></li>
-          <li><a href="#">Post 2</a></li>
-          <li><a href="#">Post 3</a></li>
-        </ul>
+      <section class="post-section">
+        <div class="post">
+          <div class="post-image-section">
+            <img src="https://picsum.photos/200/300" alt="Post Image">
+          </div>
+          <div class="post-info-section">
+            <h2>Post Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor.</p>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post-image-section">
+            <img src="https://picsum.photos/200/300" alt="Post Image">
+          </div>
+          <div class="post-info-section">
+            <h2>Post Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor.</p>
+          </div>
+        </div>
       </section>
     </main>
     <footer>
-      <p>&copy; My Thoughts Blog 2023</p>
+      <p>Copyright © 2023 My Thoughts Blog</p>
     </footer>
   </body>
 </html>
