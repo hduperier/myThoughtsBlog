@@ -1,50 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog</title>
-    <link rel="stylesheet" type="text/css" href="/static/CSS/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Thoughts Blog</title>
+    <link rel="stylesheet" href="/static/CSS/style.css">
   </head>
   <body>
     <header>
-      <h1>My Blog</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
     </header>
-
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-
     <main>
-      <section id="post-section">
+      <section>
+        <h1>My Thoughts Blog</h1>
+        <p>Welcome to my thoughts blog, where I share my thoughts and opinions on various topics. Feel free to read and leave a comment if you have something to add!</p>
+      </section>
+      <section>
         <h2>Recent Posts</h2>
-
-        <div class="post-container">
-          <div class="post">
-            <h3 class="post-title">Post Title 1</h3>
-            <p class="post-date">Posted on January 1, 2023</p>
-            <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            <a href="#" class="read-more">Read More</a>
-          </div>
-
-          <div class="post">
-            <h3 class="post-title">Post Title 2</h3>
-            <p class="post-date">Posted on January 2, 2023</p>
-            <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            <a href="#" class="read-more">Read More</a>
-          </div>
-        </div>
+        <ul>
+          <li><a href="#">Post 1</a></li>
+          <li><a href="#">Post 2</a></li>
+          <li><a href="#">Post 3</a></li>
+        </ul>
       </section>
     </main>
-
     <footer>
-      <p>Copyright &copy; 2023 My Blog</p>
+      <p>&copy; My Thoughts Blog 2023</p>
     </footer>
-
-    <script src="/static/javascript/script.js"></script>
   </body>
 </html>

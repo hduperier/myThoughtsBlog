@@ -1,106 +1,41 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-}
-
-nav {
-    background-color: darkgray;
-    padding: 10px;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav li {
-    margin-right: 20px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-}
-
-#post-section {
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-#post-section h2 {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.post-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.post {
-    width: 100%;
-    max-width: 500px;
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: white;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 10px 0px #ccc;
-    text-align: center;
-}
-
-@media (min-width: 768px) {
-    .post {
-        width: calc(50% - 10px);
-    }
-}
-
-.post-title {
-    margin-bottom: 10px;
-    font-size: 22px;
-}
-
-.post-date {
-    font-size: 12px;
-    color: gray;
-    margin-bottom: 20px;
-}
-
-.post-content {
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-.read-more {
-    display: block;
-    margin-top: 20px;
-    text-align: center;
-    font-size: 16px;
-    color: #333;
-    text-decoration: none;
-}
-
-footer {
+  }
+  
+  header {
     background-color: #333;
-    color: white;
-    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  section {
+    width: 80%;
     text-align: center;
-    font-size: 14px;
-}
+    margin-bottom: 2em;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+  }
+  
