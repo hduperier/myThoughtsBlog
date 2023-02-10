@@ -93,3 +93,10 @@ body {
     color: black;
     display: block;
   }
+
+  .post-container {
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+  }
